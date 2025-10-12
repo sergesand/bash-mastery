@@ -1,0 +1,13 @@
+#!/bin/bash
+# Author: Serhii Sanduliak
+# Date Created: 12/10/2025
+# Date Modified: 12/10/2025
+# Description: The script allows to easily backup all the files in home directory
+# Usage: ./backup_script
+
+echo "Starting backup: ..."
+tar -cvf ~/bash_course/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+echo "Done!"
+
+exit 0
+
