@@ -1,5 +1,5 @@
-Scenario
-You have been asked to create a bash script that will serve as a basic calculator and allow you to perform simple arithmetic calculations from the command line.
+# Scenario
+You have been asked to create a **bash script** that will serve as a **basic calculator** and allow you to perform simple arithmetic calculations from the command line.
 
 The calculator needs to be able to do addition, subtraction, multiplication and division, on a maximum of 9 numbers.
 
@@ -10,7 +10,8 @@ The operation chosen will be applied to all the numbers.
 For example, if the first command line argument is “+”, then all the other command line arguments will be added together. If the user picks “-”, then all the other command line arguments will be subtracted from each other, and so on.
 
 Your script needs to be able to accept the operation as the first command line argument, and also accept up to 9 numbers (for a total of 10 command line arguments).
-
+---
+## Hints
 Hint 1: You will need to use the first positional parameter, which is the operator, multiple times
 
 Hint 2: You can use the echo command to display the result of the arithmetic expansion
