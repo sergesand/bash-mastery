@@ -10,7 +10,9 @@ The operation chosen will be applied to all the numbers.
 For example, if the first command line argument is “+”, then all the other command line arguments will be added together. If the user picks “-”, then all the other command line arguments will be subtracted from each other, and so on.
 
 Your script needs to be able to accept the operation as the first command line argument, and also accept up to 9 numbers (for a total of 10 command line arguments).
+
 ---
+
 ## Hints
 Hint 1: You will need to use the first positional parameter, which is the operator, multiple times
 
